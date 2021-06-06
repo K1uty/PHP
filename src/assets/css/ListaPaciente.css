@@ -1,0 +1,31 @@
+.table{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+table{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 8px rgb(185, 185, 185);
+    width: 70%;
+
+}
+
+th, td{
+    padding: 20px;
+}
+
+thead{
+    background-color: #D9C8C9;
+    border-bottom: solid 5px #714444;
+    color: #714444;
+}
+
+
+tr:hover td{
+    background-color: #F9E1EA;
+}

@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.login {
+  width: 400px;
+  height: 340px;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 5px 5px 8px rgb(185, 185, 185);
+  padding: 20px 30px;
+  border-top: 5px solid #714444;
+}
+
+.email,
+.pass {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+
+.pass label,
+.email label {
+  margin: 10px 0px;
+}
+
+.email input[type="email"],
+.pass input[type="password"] {
+  padding: 20px;
+}
+
+input[type="submit"] {
+  background-color: #d9c8c9;
+  border: none;
+  height: 50px;
+  width: 100%;
+}
+
+.error{
+  height: 50px;
+  color: rgb(172, 2, 2);
+  margin: 25px;
+
+}
